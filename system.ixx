@@ -1,6 +1,6 @@
 export module system;
 
-export class system final
+export class system
 {
 public:
 	constexpr virtual auto update(const float _delta) -> void {};
